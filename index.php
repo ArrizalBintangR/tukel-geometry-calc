@@ -15,10 +15,6 @@
         <a href="input.php?bentuk=4">PERSEGI PANJANG</a> <br>
         <a href="input.php?bentuk=5">JAJARAN GENJANG</a> <br>
     </div>
-
-    <script>
-
-    </script>
 </body>
 
 </html>
