@@ -45,8 +45,7 @@
                     <label>Lingkaran</label>
                     <form method="post" action="proses.php">
                         <label>jari-jari</label>
-                        <input type="text" name="jari2" />
-                        <br>
+                        <input type="text" name="jari2"/><br>
                         <input type="hidden" name="bentuk" value="1">
                         <input type="submit" name="count" value="Count" />
                     </form>
@@ -56,15 +55,13 @@
                     <label>SEGITIGA SIKU-SIKU</label>
                     <form method="post" action="proses.php">
                         <label>ALAS</label>
-                        <input type="text" name="alas" />
-                        <br>
+                        <input type="text" name="alas"/><br>
                         <label for="">TINGGI</label>
-                        <input type="text" name="tinggi" />
-                        <br>
+                        <input type="text" name="tinggi"/><br>
                         <label for="">SISI</label>
                         <input type="text" name="sisi" required/>
                         <input type="hidden" name="bentuk" value="2">
-                        <input type="submit" name="count" value="Count" />
+                        <input type="submit" name="count" value="Count"/>
                     </form>
                     <?php break; ?>
                 <?php
@@ -72,10 +69,9 @@
                     <label>BUJUR SANGKAR</label>
                     <form method="post" action="proses.php">
                         <label>SISI</label>
-                        <input type="text" name="sisi" required/>
-                        <br>
+                        <input type="text" name="sisi" required/><br>
                         <input type="hidden" name="bentuk" value="3">
-                        <input type="submit" name="count" value="Count" />
+                        <input type="submit" name="count" value="Count"/>
                     </form>
                     <?php break; ?>
                 <?php
@@ -83,13 +79,11 @@
                     <label>PERSEGI PANJANG</label>
                     <form method="post" action="proses.php">
                         <label>PANJANG</label>
-                        <input type="text" name="panjang" required/>
-                        <br>
+                        <input type="text" name="panjang" required/><br>
                         <label for="">LEBAR</label>
-                        <input type="text" name="lebar" required/>
-                        <br>
+                        <input type="text" name="lebar" required/><br>
                         <input type="hidden" name="bentuk" value="4">
-                        <input type="submit" name="count" value="Count" />
+                        <input type="submit" name="count" value="Count"/>
                     </form>
                     <?php break; ?>
                 <?php
@@ -97,18 +91,15 @@
                     <label>JAJARAN GENJANG</label>
                     <form method="post" action="proses.php">
                         <label>ALAS</label>
-                        <input type="text" name="alas" />
-                        <br>
+                        <input type="text" name="alas"/><br>
                         <label for="">TINGGI</label>
-                        <input type="text" name="tinggi" />
-                        <br>
+                        <input type="text" name="tinggi"/><br>
                         <label for="">SISI 1</label>
-                        <input type="text" name="sisi1" required/>
-                        <br>
+                        <input type="text" name="sisi1" required/><br>
                         <label for="">SISI 2</label>
                         <input type="text" name="sisi2" required/>
                         <input type="hidden" name="bentuk" value="5">
-                        <input type="submit" name="count" value="Count" />
+                        <input type="submit" name="count" value="Count"/>
                     </form>
                     <?php break; ?>
             <?php endswitch; ?>

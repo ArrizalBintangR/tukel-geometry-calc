@@ -8,8 +8,8 @@ if (isset($_POST['count'])) {
             $jari2 = $_POST['jari2'];
             $luas = hitungLuasLingkaran($jari2);
             $keliling = hitungKelilingLingkaran($jari2);
-            echo "Luas Lingkaran: " . $luas;
-            echo "Luas Lingkaran: " . $keliling;
+            echo "Luas Lingkaran: " . $luas . "<br>";
+            echo "Keliling Lingkaran: " . $keliling;
             break;
 
         case 2: // Segitiga Siku-Siku
@@ -18,7 +18,7 @@ if (isset($_POST['count'])) {
             $sisi = $_POST['sisi'];
             $luas = hitungLuasSegitiga($alas, $tinggi);
             $keliling = hitungKelilingSegitiga($sisi);
-            echo "Luas Segitiga Siku-Siku: " . $luas;
+            echo "Luas Segitiga Siku-Siku: " . $luas . "<br>";
             echo "Keliling Segitiga Siku-Siku: " . $keliling;
             break;
 
@@ -26,7 +26,7 @@ if (isset($_POST['count'])) {
             $sisi = $_POST['sisi'];
             $luas = hitungLuasPersegi($sisi);
             $keliling = hitungKelilingPersegi($sisi);
-            echo "Luas Bujur Sangkar: " . $luas;
+            echo "Luas Bujur Sangkar: " . $luas . "<br>";
             echo "Keliling Bujur Sangkar: " . $keliling;
             break;
 
@@ -35,7 +35,7 @@ if (isset($_POST['count'])) {
             $lebar = $_POST['lebar'];
             $luas = hitungLuasPersegiPanjang($panjang, $lebar);
             $keliling = hitungLuasPersegiPanjang($panjang, $lebar);
-            echo "Luas Persegi Panjang: " . $luas;
+            echo "Luas Persegi Panjang: " . $luas . "<br>";
             echo "Keliling Persegi Panjang: " . $keliling;
             break;
 
@@ -46,7 +46,7 @@ if (isset($_POST['count'])) {
             $sisi2 = $_POST['sisi2'];
             $luas = hitungLuasJajaranGenjang($alas, $tinggi);
             $keliling = hitungKelilingJajaranGenjang($sisi1, $sisi2);
-            echo "Luas Jajaran Genjang: " . $luas;
+            echo "Luas Jajaran Genjang: " . $luas . "<br>";
             echo "Keliling Jajaran Genjang: " . $keliling;
             break;
 
